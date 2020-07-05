@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fea49f"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/project"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project "
+        android:textColor="#ffffff"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="40sp"
+        android:background="#2d545e"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/happier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happier"
+        android:textColor="#ff5e6c"
+        android:textSize="40sp"
+        android:background="#2d545e"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/project"
+        android:textStyle="bold"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/happier"
+        android:background="#ff5e6c"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/happy"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/quote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:text="Learn to let go. That is the key to happiness."
+        android:background="#2d545e"
+        android:textSize="30sp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quote"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:text="Budda"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:textColor="#ff5e6c"
+        android:textSize="20sp"
+        android:background="#2d545e"
+        android:textStyle="bold|italic"/>
+
+
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Project Happier, Copyright © Sujan Dhakal, 2020"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:background="#ff5e6c"
+        android:padding="5dp"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>

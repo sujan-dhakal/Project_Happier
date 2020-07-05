@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fea49f"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/project"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project "
+        android:textColor="#ffffff"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="40sp"
+        android:background="#2d545e"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/happier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happier"
+        android:textColor="#ff5e6c"
+        android:textSize="40sp"
+        android:background="#2d545e"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/project"
+        android:textStyle="bold"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@id/happier"
+        android:background="#ff5e6c"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/happy"
+        android:layout_below="@+id/line"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="0dp"/>
+
+
+    <TextView
+        android:id="@+id/block1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What makes you smile?"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:layout_below="@+id/line"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:id="@+id/dog_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Dog"
+            android:background="#2d545e"
+            android:textColor="#ff5e6c"
+            android:textSize="30sp"
+            android:padding="15dp"
+            android:layout_marginTop="130sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/cat_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dog_button"
+            android:text="Cat"
+            android:padding="15dp"
+            android:background="#2d545e"
+            android:textColor="#ff5e6c"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/quote_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cat_button"
+            android:text="Quotes"
+            android:padding="15dp"
+            android:background="#2d545e"
+            android:textColor="#ff5e6c"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Project Happier, Copyright © Sujan Dhakal, 2020"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:background="#ff5e6c"
+        android:padding="5dp"
+        android:textColor="#ffffff"/>
+
+
+</RelativeLayout>
