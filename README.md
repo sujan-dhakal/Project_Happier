@@ -21,6 +21,7 @@ Previews:
 <img src="images/cat.png" width=300> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/quote.png" width=300>
 
 
+
 Credits:
 
     - https://dog.ceo/dog-api/
