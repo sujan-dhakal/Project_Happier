@@ -14,7 +14,13 @@ How to run?
 
 Previews:
 
-<img src="images/home.jpg" width=300>                 <img src="images/dog.jpg" width=300>
+<img src="images/home.png" width=300>                
 
 
-<img src="images/cat.jpg" width=300>                  <img src="images/quote.jpg" width=300>
+<img src="images/dog.png" width=300>
+ 
+ 
+<img src="images/cat.png" width=300> 
+
+
+<img src="images/quote.png" width=300>
