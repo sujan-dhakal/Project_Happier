@@ -11,6 +11,7 @@ How to run?
 
     - Clone the repo and open it using Android Studio.
     - Make Project and Run. 
+   
 
 Previews:
 
@@ -18,3 +19,10 @@ Previews:
  
  
 <img src="images/cat.png" width=300> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/quote.png" width=300>
+
+
+Credits:
+
+    - https://dog.ceo/dog-api/
+    - https://thecatapi.com/
+    - https://quote-garden.herokuapp.com/
