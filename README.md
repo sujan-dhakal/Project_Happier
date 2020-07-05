@@ -14,7 +14,7 @@ How to run?
 
 Previews:
 
-<img src="images/home.png" width=300> \t\t <img src="images/dog.png" width=300>
+<img src="images/home.png" width=300> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/dog.png" width=300>
  
  
-<img src="images/cat.png" width=300> \t\t<img src="images/quote.png" width=300>
+<img src="images/cat.png" width=300> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/quote.png" width=300>
